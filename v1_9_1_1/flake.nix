@@ -11,7 +11,6 @@
   inputs.src-opencolor-v1_9_1_1.ref   = "refs/tags/v1.9.1.1";
   inputs.src-opencolor-v1_9_1_1.owner = "Double-oxygeN";
   inputs.src-opencolor-v1_9_1_1.repo  = "opencolor.nim";
-  inputs.src-opencolor-v1_9_1_1.dir   = "";
   inputs.src-opencolor-v1_9_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
